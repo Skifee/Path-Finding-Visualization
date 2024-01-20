@@ -50,7 +50,7 @@ function setup() {
     let desc2 = createP('To change the locations of the start and end points, simply click on one of them first, then move it to another cell.')
     desc3 = createP("This algorithm explores all nodes at the present depth prior to moving on to the nodes at the next depth level. <br/><br/>Gurantees shortest path.<br/>")
     let metaDiv = createDiv()
-    let credits = createP("Source Code: <a href='https://github.com' target='_blank'>Samuel Kibe</a>")
+    let credits = createP("Source Code: <a href='https://github.com/Skifee/Path-Finding-Visualization.git' target='_blank'>Samuel Kibe</a>")
     credits.elt.style.fontWeight = '600'
     credits.elt.style.fontSize = '1.25rem'
     heading3 = createP('Breadth First Search:')
